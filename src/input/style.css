@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax-scroll{
+    animation: parallax-scroll linear;
+    animation-timeline: scroll();
+}
+
+@keyframes parallax-scroll {
+
+    0%{
+        transform: translateY(-1900px);
+    }
+    100%{
+        transform: translateY(2000px);
+    }
+}
+
+

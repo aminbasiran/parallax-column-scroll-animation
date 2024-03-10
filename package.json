@@ -1,0 +1,16 @@
+{
+  "name": "parallax-columns-scrolling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input/style.css -o ./src/output/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./dist/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
